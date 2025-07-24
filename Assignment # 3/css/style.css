@@ -1,0 +1,52 @@
+body {
+    /* used the background function to make the blank poster base */
+    background-image: url('../img/blank-poster-letter-RotJ.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 78%;
+}
+a{
+    text-decoration: none; /* took the underlines off the anchors */
+    color: darkred; /* changed the text color to darkred, scarlet/crimson is my favourite */
+
+}
+h1{
+    color: #fffffb; /* changed the text color to white */
+    font-size: xxx-large; /* there's got to be a better way to do the size */
+}
+h2{
+    color: #fffffb; /* changed the text color to white */
+    font-size: x-large;
+    letter-spacing: 10px; /* tried out letter spacing, i wish i had a kerning font */
+}
+P{
+    color: #fffffb; /* changed the text color to white */
+
+}
+.small-text {
+    font-size: 12px; /* used this class to make some words smaller with the span tag */
+}
+
+header > nav > menu{
+    list-style: none; /* got rid of the dots */
+    margin-bottom: 0px;
+    background: #fffffb;
+    justify-items: center;
+}
+header > div{
+    text-align: center; /* centred the text in the div */
+}
+header > div > h1 > {
+    display: flex; /* i don't think i functionally used flex */
+
+}
+main div{
+height: 100vh; /* the purpose was to push all the footer div's to the bottom */
+}
+footer > div{
+
+    text-align: center; /* i centred all the text in the footer, looks like it centred the img also */
+}
+footer > div > img{
+    text-decoration-color: rgba(0, 0, 0, 0.9); /* attempt to make the image background transparent and failed */
+}
