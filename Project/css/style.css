@@ -1,0 +1,45 @@
+
+header{
+    display: flex;
+    height: 150px;
+    background-color: #f8f8f8;
+    /* center my content along the cross axis */
+    align-items: center;
+}
+header > div{
+    height: 145px;
+    width: auto;
+    flex-grow: 1;
+}
+header > div > a > img{
+    width: auto;
+    height: 100%;
+}
+header > nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+header > nav > menu {
+    list-style: none;
+    align-items: center;
+
+}
+header > nav > menu > li {
+    float: left;
+
+
+}
+
+header > nav > menu > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+header > nav > menu > li > a:hover {
+    background-color: #111111;
+}
